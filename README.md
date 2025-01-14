@@ -1,8 +1,4 @@
 # OpenCV Utils
+This is a copy of opencv-utils@0.0.2 but fixed to work with Python 3.11, as the build used 'rU' to read which is deprecated in Python3.11. 
 
-### Writing
-Writing modules provides easy to use, out of the box methods to write on images.
-
-![How to use?](https://i.imgur.com/1EWRoVe.png)
-
-![Image Written By OpenCV Utils](http://i.imgur.com/A9hmbXc.jpg)
+To install, run `python3.11 -m pip install -e git+https://github.com/jordan-tsanz/opencv-utils-python3.11@main#egg=opencv-utils`.
